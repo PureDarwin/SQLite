@@ -6,6 +6,21 @@
 	objectVersion = 51;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		1F418D8522F4957B00641731 /* world */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1F418D8622F4957B00641731 /* Build configuration list for PBXAggregateTarget "world" */;
+			buildPhases = (
+			);
+			dependencies = (
+				1F418D8A22F4958300641731 /* PBXTargetDependency */,
+				1F418D8C22F4958300641731 /* PBXTargetDependency */,
+			);
+			name = world;
+			productName = world;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		1F418D7122F4942E00641731 /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FFDCB7522F4940A00B2A3F0 /* sqlite3.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F418D7222F4942E00641731 /* sqlite3ext.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FFDCB7622F4940A00B2A3F0 /* sqlite3ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -22,6 +37,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 1FFDCB6B22F493AF00B2A3F0;
 			remoteInfo = libsqlite3;
+		};
+		1F418D8922F4958300641731 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FE3C44222F49369001E032A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FFDCB6B22F493AF00B2A3F0;
+			remoteInfo = libsqlite3;
+		};
+		1F418D8B22F4958300641731 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FE3C44222F49369001E032A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F418D7722F4952100641731;
+			remoteInfo = shell;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -161,6 +190,9 @@
 					1F418D7722F4952100641731 = {
 						CreatedOnToolsVersion = 11.0;
 					};
+					1F418D8522F4957B00641731 = {
+						CreatedOnToolsVersion = 11.0;
+					};
 					1FFDCB6B22F493AF00B2A3F0 = {
 						CreatedOnToolsVersion = 11.0;
 					};
@@ -179,6 +211,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				1F418D8522F4957B00641731 /* world */,
 				1FFDCB6B22F493AF00B2A3F0 /* libsqlite3 */,
 				1F418D7722F4952100641731 /* shell */,
 			);
@@ -231,6 +264,16 @@
 			isa = PBXTargetDependency;
 			target = 1FFDCB6B22F493AF00B2A3F0 /* libsqlite3 */;
 			targetProxy = 1F418D8322F4955A00641731 /* PBXContainerItemProxy */;
+		};
+		1F418D8A22F4958300641731 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FFDCB6B22F493AF00B2A3F0 /* libsqlite3 */;
+			targetProxy = 1F418D8922F4958300641731 /* PBXContainerItemProxy */;
+		};
+		1F418D8C22F4958300641731 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F418D7722F4952100641731 /* shell */;
+			targetProxy = 1F418D8B22F4958300641731 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -351,6 +394,24 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = sqlite3;
 				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1F418D8722F4957B00641731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3P242C9ES5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F418D8822F4957B00641731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3P242C9ES5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -507,6 +568,15 @@
 			buildConfigurations = (
 				1F418D7D22F4952100641731 /* Debug */,
 				1F418D7E22F4952100641731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F418D8622F4957B00641731 /* Build configuration list for PBXAggregateTarget "world" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F418D8722F4957B00641731 /* Debug */,
+				1F418D8822F4957B00641731 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
