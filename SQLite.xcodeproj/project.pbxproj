@@ -487,7 +487,6 @@
 				PRODUCT_NAME = sqlite3.0;
 				PUBLIC_HEADERS_FOLDER_PATH = /usr/include;
 				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
 				WARNING_CFLAGS = (
 					"-Wno-ambiguous-macro",
 					"-Wno-comma",
@@ -550,7 +549,6 @@
 				PRODUCT_NAME = sqlite3.0;
 				PUBLIC_HEADERS_FOLDER_PATH = /usr/include;
 				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
 				WARNING_CFLAGS = (
 					"-Wno-ambiguous-macro",
 					"-Wno-comma",
